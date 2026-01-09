@@ -150,15 +150,17 @@ body {
 /* notes starts here */
 
 .notes-container{
-    max-width: 100%;
+    /* max-width: 100%; */
     margin: auto;
     text-align: center;
+    
 }
 
 .notes-content{
     text-align: center;
     height: 152px;
     margin-top: 50px;
+   
 }
 
 .notes-content h2{
@@ -167,6 +169,7 @@ body {
     color: #001931;
     margin-bottom: 10px;
     /* line-height: 58px; */
+    
 }
 
 .notes-content p{
@@ -174,6 +177,7 @@ body {
     /* height: 20px; */
     color: #627382;
     line-height: 20px;
+    
 }
 
 .notes-card{
@@ -182,13 +186,14 @@ body {
     gap: 24px;
 }
 .notes-card .card{
-    max-width: 300px;
-    height: 300px;
-    border: 1px solid red;
-    padding: 24px 24px;
-    gap: 24px;
+    max-width: 320px;
+    height: 280px;
+    /* border: 1px solid red; */
+    padding: 70px 18px 50px;
     margin-bottom: 100px;
-}
+    text-align: center;
+    box-shadow:  0 0px 9px rgba(0, 0, 0, 0.09);
+}    
 
 /* .card img{
     width: 60px;
@@ -200,6 +205,8 @@ body {
 } */
 
 
+
+
 .icon{
     max-width: 60px;
     height: 60px;
@@ -208,8 +215,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 18px;
-    padding: 24px;
+    margin: 16px auto;
+    /* padding: 24px; */
+    /* border: 1px solid red; */
+}
+
+.card h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p{
+    width: 276px;
+    color: #627382;
 }
 
 
@@ -217,4 +235,3 @@ body {
 
 
 /* notes ends here */
-
