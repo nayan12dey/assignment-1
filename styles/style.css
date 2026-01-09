@@ -230,8 +230,56 @@ body {
     color: #627382;
 }
 
-
-
-
-
 /* notes ends here */
+
+/* brain-structure starts here */
+
+.brain-container{
+    max-width: 1360px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content:;
+    margin-left: 100px;
+}
+
+.brain-container img{
+    /* border: 1px solid red; */
+    max-width: 600px;
+}
+
+.brain-container .brain-content{
+    max-width: 700px;
+    /* border: 1px solid red; */
+    margin-left: 40px;
+}
+
+.brain-content .solution{
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+.brain-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    /* text-align: left; */
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+.brain-content .personal{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+    /* border: 1px solid red; */
+    margin-bottom: 40px;
+}
+
+.brain-content li{
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+/* brain-structure ends here */
