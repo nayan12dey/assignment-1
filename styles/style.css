@@ -342,6 +342,10 @@ footer{
     padding: 90px;
 }
 
+.social-links{
+    margin-right: 120px;
+}
+
 #footer-container .social-links h3{
     font-size: 20px;
     color: #FFFFFF;
