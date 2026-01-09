@@ -92,7 +92,6 @@ body {
 }
 
 
-
 .banner-content h1{
     font-size: 56px;
     color: #FFFFFF;
@@ -328,7 +327,7 @@ body {
 /* early-access ends here */
 
 
-/* foooter starts here */
+/* footer starts here */
 
 
 footer{
@@ -376,4 +375,4 @@ footer .copyright{
     line-height: 24px;
 }
 
-/* foooter ends here */
+/* footer ends here */
