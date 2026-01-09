@@ -321,3 +321,50 @@ body {
 }
 
 /* early-access ends here */
+
+
+/* foooter starts here */
+
+
+footer{
+    border: 1px solid red;
+    background-color: #001931;
+}
+
+#footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px;
+}
+
+#footer-container .social-links h3{
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.social-links .social-media-icons i{
+    max-width: 30px;
+    background-color: #FFFFFF;
+    padding: 2px 2px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+footer hr{
+    max-width: 1360px;
+    margin: 0 auto;
+    border: 1px solid #e5e7eb6a;
+}
+
+footer .copyright{
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+    color: #FAFAFA;
+    line-height: 24px;
+}
+
+/* foooter ends here */
